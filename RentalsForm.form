@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RentalsForm">
+  <grid id="27dc6" binding="Panel1" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-3851"/>
+    </properties>
+    <border type="empty">
+      <size top="10" left="10" bottom="10" right="10"/>
+    </border>
+    <children>
+      <grid id="6cc3f" binding="Panelgora" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-460550"/>
+        </properties>
+        <border type="line" title="Formularz wypożyczeń">
+          <title-color color="-9685885"/>
+          <color color="-6596170"/>
+        </border>
+        <children>
+          <component id="f7b55" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="12" style="1"/>
+              <foreground color="-9685885"/>
+              <text value="ID czytelnika:"/>
+            </properties>
+          </component>
+          <component id="d0a17" class="javax.swing.JTextField" binding="textFieldidczytelnika">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="12" style="1"/>
+            </properties>
+          </component>
+          <component id="1be8d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="12" style="1"/>
+              <foreground color="-9685885"/>
+              <text value="ID książki:"/>
+            </properties>
+          </component>
+          <component id="ff90d" class="javax.swing.JTextField" binding="textFieldidksiazki">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="12" style="1"/>
+            </properties>
+          </component>
+          <component id="94326" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="ikons/library.png"/>
+              <text value="Wypożyczenia:"/>
+            </properties>
+          </component>
+          <component id="e5c24" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="12" style="1"/>
+              <foreground color="-9685885"/>
+              <text value="Data wypożyczenia"/>
+            </properties>
+          </component>
+          <component id="40be4" class="javax.swing.JTextField" binding="textFielddata">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe UI" size="12" style="1"/>
+            </properties>
+          </component>
+          <component id="ca07" class="javax.swing.JButton" binding="wypożyczButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-9685885"/>
+              <focusPainted value="false"/>
+              <font name="Segoe UI" size="12" style="1"/>
+              <foreground color="-460550"/>
+              <text value="Wypożycz"/>
+            </properties>
+          </component>
+          <component id="c891b" class="javax.swing.JButton" binding="anulujButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-3716206"/>
+              <focusPainted value="false"/>
+              <font name="Segoe UI" size="12" style="1"/>
+              <foreground color="-460550"/>
+              <text value="Anuluj"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d26a8" binding="PanelCenter" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-335630"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="d68f3">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-335630"/>
+            </properties>
+            <border type="line">
+              <color color="-6596231"/>
+            </border>
+            <children>
+              <component id="d9c1b" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <background color="-460550"/>
+                  <gridColor color="-1342788"/>
+                  <rowHeight value="25"/>
+                  <selectionBackground color="-6596170"/>
+                  <selectionForeground color="-460550"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

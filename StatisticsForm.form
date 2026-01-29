@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StatisticsForm">
+  <grid id="27dc6" binding="Panel1" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="fbb3" binding="panelTytulu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-13877680"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bda29" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Arial" size="20" style="1"/>
+              <foreground color="-526086"/>
+              <icon value="ikons/icons8-pie-chart-48.png"/>
+              <text value="Statystyki wypożyczeń"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="9ea16" binding="panelWykresu" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none" title="Wykres aktywności"/>
+        <children>
+          <grid id="2b7c3" binding="panelWykresWłasny" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <background color="-2763305"/>
+              <preferredSize width="600" height="400"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </grid>
+      <grid id="43370" binding="panelLegenda" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none" title-justification="1"/>
+        <children>
+          <component id="d289d" class="javax.swing.JButton" binding="odswiezButton">
+            <constraints/>
+            <properties>
+              <text value="Odśwież"/>
+            </properties>
+          </component>
+          <component id="df1b5" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Kategorie:"/>
+            </properties>
+          </component>
+          <component id="47623" class="javax.swing.JLabel" binding="lblwypozyczone">
+            <constraints/>
+            <properties>
+              <foreground color="-1638366"/>
+              <text value="Wypożyczone"/>
+            </properties>
+          </component>
+          <component id="8bf9" class="javax.swing.JLabel" binding="lbldostepne">
+            <constraints/>
+            <properties>
+              <foreground color="-13906944"/>
+              <text value="Dostepne"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="ccfeb" binding="paneltabeli" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="East"/>
+        <properties>
+          <preferredSize width="250" height="200"/>
+        </properties>
+        <border type="none" title="Podsumowanie"/>
+        <children>
+          <scrollpane id="4bdca" binding="Jscrollpanetabeli">
+            <constraints border-constraint="Center"/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="be483" class="javax.swing.JTable" binding="tabelaStatystyk">
+                <constraints/>
+                <properties>
+                  <rowHeight value="30"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
